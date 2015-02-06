@@ -15,7 +15,7 @@ h1, h2, h3 {
 }
 
 .green-bg {
-  background: green;
+  background: $green;
   color: white;
 }
 
@@ -40,29 +40,24 @@ img {
   padding: 150px 0;
   background-size: cover;
   height: 700px;
-}
-
-#banner h1 {
+  h1 {
   font-size: 80px;
   color: white;
   margin-top: 40;
   margin-left: 20px;
-}
-
-#banner h2 {
+  }
+  h2 {
   font-size: 40px;
   color: white;
   margin-left: 50px;
-
-}
-
-#banner p {
+  }
+  p {
   font-size: 25px;
   font-weight: 100;
-}
-
-.btn {
+  }
+  .btn {
   margin-left: 60px;
+  }
 }
 
 

@@ -1,23 +1,23 @@
 // Your footer style
 
 #footer {
-  background: grey;
+  background: $gray-light;
   padding: 30px 0;
   color: white;
   text-align: center;
   font-family: Verdana;
-}
-#footer p {
+  p {
   margin-top: 30px;
-}
-#footer ul {
+  }
+  ul {
   margin-top: 20px;
-}
-#footer a {
+  }
+  a {
   color: black;
   font-size: 30px;
   letter-spacing: 20px;
-}
-#footer a:hover {
+  &:hover {
   color: green;
+  }
+  }
 }
