@@ -1,0 +1,36 @@
+---
+title: Database
+---
+<div id="banner">
+<div class="welcome text-center padded">
+  <h2>Welcome to our Sledge Database</h2>
+  <p class="doc">
+    <h3>scroll down</h3>
+  </p><!-- .doc -->
+</div><!-- .welcome -->
+</div>
+
+<div class="container">
+  <div class="row">
+    <h1>Onze sleeen</h1>
+    <% data.database.each do |database| %>
+
+      <!-- HTML div that we want to repeat -->
+      <div class="col-xs-12 col-sm-offset-1 col-sm-3 text-center">
+        <div class="row">
+          <div class="col-xs-3 col-sm-12">
+            <%= image_tag database.picture, class: "img-circle img-responsive" %>
+          </div>
+          <div class="col-xs-9 col-sm-12">
+            <h2>
+              <%= database.name %>
+              <span class="label label-<%= database.color %>"><%= database.price %></span>
+            </h2>
+            <p><%= database.summary %></p>
+          </div>
+        </div>
+      </div>
+
+    <% end %>
+  </div>
+</div>

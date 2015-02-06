@@ -1,0 +1,15 @@
+- name: Classic
+  picture: http://www.heuts.nl/shop/media/catalog/product/cache/1/small_image/150x/9df78eab33525d08d6e5fb8d27136e95/H/o/Houten_Slee_100_cm.jpg
+  summary: This <strong>sledge</strong> is<br>classic..
+  price: 99€
+  color: primary
+- name: Pussy
+  picture: http://www.sleestore.com/media/catalog/product/cache/71/small_image/150x/9df78eab33525d08d6e5fb8d27136e95/s/n/snowjet1.png
+  summary: This <strong>sledge</strong> is<br>for pussies!
+  price: 199€
+  color: success
+- name: Bam!
+  picture: http://www.sleestore.com/media/catalog/product/cache/71/small_image/150x/9df78eab33525d08d6e5fb8d27136e95/h/o/hoover_geel.png
+  summary: This <strong>sledge</strong> is<br>for Terminators
+  price: 299€
+  color: warning
