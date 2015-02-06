@@ -13,3 +13,8 @@
   summary: This <strong>sledge</strong> is<br>for Terminators
   price: 299€
   color: warning
+- name: Bam!
+  picture: http://www.sleestore.com/media/catalog/product/cache/71/small_image/150x/9df78eab33525d08d6e5fb8d27136e95/h/o/hoover_geel.png
+  summary: This <strong>sledge</strong> is<br>for Terminators
+  price: 299€
+  color: warning
