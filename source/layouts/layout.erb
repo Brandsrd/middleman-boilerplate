@@ -34,8 +34,8 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
+              <% link_to "/#book" do %>
+                <i class="fa fa-plane"></i></i>Book now!
               <% end %>
             </li>
             <li>
@@ -46,16 +46,33 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                <li><a href="https://www.facebook.com/ruben.brands"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                <li><a href="https://twitter.com/rdbrands"><i class="fa fa-twitter-square"></i> Twitter</a></li>
               </ul>
             </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
+            <li><a href="/#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <%= yield %>
+
+<!-- Mijn eigen footer
+ -->
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+      <div id="footer">
+        <ul class="list-inline">
+          <li><a href="http://www.facebook.com/ruben.brands"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="http://www.twiter.com/rdbrands"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+        <p>Lapland is powered bij Rubinito!</p>
+      </div>
+    </div>
+  </div>
+
+
   </body>
 </html>
