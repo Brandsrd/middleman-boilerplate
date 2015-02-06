@@ -1,0 +1,32 @@
+/* code your banner design here */
+
+#banner {
+  background-image: url(../images/laplandBG1.jpg);
+  color: white;
+  padding: 150px 0;
+  background-size: cover;
+  height: 700px;
+}
+
+#banner h1 {
+  font-size: 80px;
+  color: white;
+  margin-top: 40;
+  margin-left: 20px;
+}
+
+#banner h2 {
+  font-size: 40px;
+  color: white;
+  margin-left: 50px;
+
+}
+
+#banner p {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.btn {
+  margin-left: 60px;
+}
